@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<schema version="1.0" xmlns="http://www.apple.com/metadata"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd">
+    <note>
+        Custom attributes that this metadata importer supports.  Below
+	is an example of a multivalued string attribute.  Other types
+	are CFNumber, CFDate, CFBoolean and CFData.      
+    </note>
+    <attributes>
+        <attribute name="org_openmicroscopy_OME_Pixels_SizeX" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_SizeY" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_SizeZ" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_SizeC" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_SizeT" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_NumPlanes" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_PixelType" multivalued="false" type="CFString"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_DimensionOrder" multivalued="false" type="CFString"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_BigEndian" multivalued="false" type="CFBoolean"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_PhysicalSizeX" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_PhysicalSizeY" multivalued="false" type="CFNumber"/>
+        <attribute name="org_openmicroscopy_OME_Pixels_PhysicalSizeZ" multivalued="false" type="CFNumber"/>
+        <attribute name="com_api_deltavision_ChannelWavelengths" multivalued="true" type="CFNumber"/>
+    </attributes>
+
+    <types>
+        <type name="com.api.deltavision">
+            <note>
+		The keys that this metadata importer handles.
+            </note>
+            <allattrs>
+        org_openmicroscopy_OME_Pixels_SizeX
+        org_openmicroscopy_OME_Pixels_SizeY
+        org_openmicroscopy_OME_Pixels_SizeZ
+        org_openmicroscopy_OME_Pixels_SizeC
+        org_openmicroscopy_OME_Pixels_SizeT
+        org_openmicroscopy_OME_Pixels_NumPlanes
+        org_openmicroscopy_OME_Pixels_PixelType
+        org_openmicroscopy_OME_Pixels_DimensionOrder
+        org_openmicroscopy_OME_Pixels_BigEndian
+        org_openmicroscopy_OME_Pixels_PhysicalSizeX
+        org_openmicroscopy_OME_Pixels_PhysicalSizeY
+        org_openmicroscopy_OME_Pixels_PhysicalSizeZ
+        com_api_deltavision_ChannelWavelengths
+            </allattrs>
+            <displayattrs>
+        org_openmicroscopy_OME_Pixels_SizeX
+        org_openmicroscopy_OME_Pixels_SizeY
+        org_openmicroscopy_OME_Pixels_SizeZ
+        org_openmicroscopy_OME_Pixels_SizeC
+        org_openmicroscopy_OME_Pixels_SizeT
+        org_openmicroscopy_OME_Pixels_NumPlanes
+        org_openmicroscopy_OME_Pixels_PixelType
+        org_openmicroscopy_OME_Pixels_DimensionOrder
+        org_openmicroscopy_OME_Pixels_BigEndian
+        org_openmicroscopy_OME_Pixels_PhysicalSizeX
+        org_openmicroscopy_OME_Pixels_PhysicalSizeY
+        org_openmicroscopy_OME_Pixels_PhysicalSizeZ
+        com_api_deltavision_ChannelWavelengths
+            </displayattrs>
+        </type>
+    </types>
+</schema>
+
